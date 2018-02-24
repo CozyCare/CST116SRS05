@@ -2,14 +2,20 @@
 Date List
 
 
-Class ID:  
+Class ID:  Ekans
 
 SRS ID: CST116SRS05  
 
 Unresolved Issues:  
 
-Notes:  
 
+Notes:  
+The program accepts any two dates in any order as long they are in (YYYY-MM-DD) format. 
+However I think I might be running into memory issues at times:
+	- Sometimes it won't rearrange the dates properly
+	- Will cause DateList to not properly execute
+The fix for this solution that I found is to clean the solution and do a batch build again before executing the program:
+	- Inputted dates are then rearranged accordingly and executes the program successfully. 
 
 ---
 
